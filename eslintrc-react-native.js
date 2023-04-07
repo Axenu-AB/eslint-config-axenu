@@ -37,6 +37,7 @@ module.exports = {
     'react-native/no-inline-styles': 1,
     'react/jsx-uses-react': 1,
     '@typescript-eslint/array-type': [2, {default: 'array-simple'}],
+    'react/require-default-props': 'off',
     '@typescript-eslint/member-ordering': [
       2,
       {
@@ -46,7 +47,6 @@ module.exports = {
       },
     ],
   },
-  ignorePatterns: ["*.js"],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'airbnb',
@@ -65,6 +65,7 @@ module.exports = {
         '@typescript-eslint/no-unused-expressions': 'off',
         'react/no-unstable-nested-components': 'off',
         'react/destructuring-assignment': 'off',
+        'react/require-default-props': 'off',
         'no-underscore-dangle': 'off',
         'no-nested-ternary': 'off',
       },
