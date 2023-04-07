@@ -2,7 +2,8 @@
   "name": "eslint-config-axenu",
   "version": "1.0.0",
   "description": "A default eslint config for project at Axenu AB",
-  "main": "eslintrc-react-native.js",  "exports": {
+  "main": "eslintrc-react-native.js",
+  "exports": {
     ".": "./eslintrc-react-native.js",
     "./react-native": "./eslintrc-react-native.js",
     "./package.json": "./package.json"
@@ -20,7 +21,6 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-find-rules": "^4.1.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^27.1.6",
     "eslint-plugin-jsdoc": "^39.6.4",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-prettier": "^4.2.1",
@@ -29,6 +29,7 @@
     "prettier": "^2.8.0"
   },
   "devDependencies": {
+    "eslint-plugin-jest": "^27.2.1",
     "in-publish": "^2.0.1",
     "safe-publish-latest": "^2.0.0"
   },

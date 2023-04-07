@@ -14,6 +14,7 @@ module.exports = {
     'react-hooks',
     'prettier',
     'react-native',
+    'jest',
   ],
   rules: {
     'prettier/prettier': [
@@ -46,6 +47,17 @@ module.exports = {
         },
       },
     ],
+    "react/require-default-props": 'off',
+    "no-shadow": "off",
+    "no-plusplus": "off",
+    "guard-for-in": "off",
+    "@typescript-eslint/no-shadow": "off",
+
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
   },
   extends: [
     'plugin:@typescript-eslint/recommended',
@@ -54,6 +66,9 @@ module.exports = {
     'plugin:prettier/recommended', // needs to be the last extension
   ],
   root: true,
+  "env": {
+    "jest/globals": true
+  },
   overrides: [
     {
       files: ['*.js'],
