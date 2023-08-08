@@ -26,6 +26,7 @@ module.exports = {
       "sourceType": "module"
     },
     env: {
-      "jest": true
+      "jest": true,
+      "node": true
     },
 };
