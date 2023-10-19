@@ -4,7 +4,7 @@ This repo exports a shared config for eslint that should be used in all Axenu pr
 
 ## Usage
 
-1) Install the package using command `npm install @axenu/eslint-config-axenu`.
+1) Install the package using command `npm install @axenuab/eslint-config-axenu`.
 2) Install eslint package using command `npm install eslint`.
 
 ### For React Native
