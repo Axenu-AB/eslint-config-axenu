@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-axenu",
-  "version": "1.1.0",
+  "name": "@axenuab/eslint-config-axenu",
+  "version": "1.0.1",
   "description": "A default eslint config for project at Axenu AB",
   "main": "eslintrc-react-native.js",
   "exports": {
